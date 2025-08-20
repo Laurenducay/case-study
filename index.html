@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Case Study – Alaska Airlines iOS App Emergency Contact Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background: #f9fafb;
+      color: #00385D;
+    }
+    header {
+      background: #00385D;
+      color: #fff;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    .container {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    .overview {
+      background: #e2e8f0;
+      padding: 1rem;
+      border-left: 5px solid #00AEEF;
+      margin-bottom: 2rem;
+    }
+    h2 {
+     margin-top: 2rem;
+      color: #00385D;
+      border-bottom: 2px solid #00AEEF;
+      padding-bottom: 0.3rem;
+    }
+    .visuals img {
+      max-width: 100%;
+      border-radius: 8px;
+      margin: 1rem 0;
+      box-shadow: 0 4px 10px rgba(0, 56, 93, 0.2);
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      margin-top: 2rem;
+      background: #00385D;
+      color: #fff;
+    }
+    footer a {
+      color: #00AEEF;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Case Study: Alaska Airlines iOS – Flight Booking Flow</h1>
+  </header>
+
+  <main class="container">
+
+    <section class="overview">
+      <p><strong>Role:</strong> iOS Developer Intern</p>
+      <p><strong>Tools:</strong> Swift, SwiftUI, Xcode, Figma, XCTest, XCUITest</p>
+      <p><strong>Timeline:</strong> 3 weeks</p>
+      <p><strong>Result:</strong> Added Emergency Contact form to International Travel Documents, improving express check-in for international guests and partner airline consistency.</p>
+    </section>
+
+    <h2>Background</h2>
+    <p>During my internship at Alaska Airlines, our mobile team identified a gap in the international travel document process for guests flying internationally. Specifically, there was no way for travelers to provide emergency contact information through the mobile app, which was required for certain international flights.</p>
+
+    <h2>Issues / Problems</h2>
+    <ul>
+      <li>Guests flying internationally were required to provide emergency contact details at the airport, slowing down the check-in process.</li>
+      <li>The mobile app’s travel document flow did not support an emergency contact form.</li>
+      <li>Lack of alignment with partner airlines (such as Qatar Airways, Malaysia Airlines, and American Airlines) in the oneworld alliance, where this feature was already implemented.</li>
+    </ul>
+
+    <h2>Process / Actions / Decisions</h2>
+    <ul>
+      <li>Collaborated with the mobile team to design an emergency contact form within the existing International Travel Documents flow.</li>
+      <li>Coordinated with backend services to capture and securely transmit emergency contact data.</li>
+      <li>Iteratively tested the new form with QA to ensure the form integrated seamlessly with the existing express check-in flow.</li>
+    </ul>
+<h2>Work</h2>
+    <ul>
+      <li>Implemented the Emergency Contact form UI in the iOS app using SwiftUI.</li>
+      <li>Connected the form fields (name, phone, relationship, etc.) to backend APIs.</li>
+      <li>Ensured smooth UX by keeping the form optional for domestic flights but required for select international flights.</li>
+      <li>Assisted with debugging and testing across partner airline integrations (e.g., Qatar Airways, Malaysia Airlines, American Airlines, British Airways).</li>
+    </ul>
+
+    <div class="visuals">
+      <h3>Visuals</h3>
+      <img src="images/Alaska Airlines.png" alt="Old Booking Flow Screenshot">
+    </div>
+
+    <h2>Result</h2>
+    <ul>
+      <li>Guests now have the ability to provide emergency contact information directly in the app before arriving at the airport.</li>
+      <li>Reduced wait times and friction during international express check-in.</li>
+      <li>Improved consistency across oneworld alliance partners by aligning Alaska’s app with their travel document standards.</li>
+      <li>Positive feedback from internal QA and stakeholders on the smoother check-in experience.</li>
+    </ul>
+
+    <h2>Takeaways</h2>
+    <p>This project helped me deepen my understanding of integrating SwiftUI forms with backend services and highlighted the importance of designing for international compliance and cross-airline consistency. I also gained experience collaborating on features that impact a global user base with diverse requirements.</p>
+  </main>
+
+  <footer>
+    <p>© 2025 Lauren Ducay  – iOS case Study Portfolio</p>
+  </footer>
+
+</body>
+</html>
